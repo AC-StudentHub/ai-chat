@@ -653,12 +653,12 @@
         animation: pulse-ring 2.5s ease-in-out infinite;
       }
       #alder-head-btn img {
-        width: 100%;
-        height: 100%;
+        width: auto;
+        height: 70px;
         object-fit: cover;
         /* Crop to show just the head — top portion of image */
         object-position: center 5%;
-        transform: scale(1.8) translateY(10%);
+        transform: scale(1.8) translateY(-15%);
       }
 
       @keyframes alder-float {
@@ -1445,7 +1445,7 @@
 
       <!-- HEAD ONLY — visible when chat is open -->
       <button id="alder-head-btn" onclick="toggleChat()" title="Close chat">
-        <img src="assets/alder-head.png" alt="Alder" />
+        <img src="assets/alder-moving-head.gif" alt="Alder" />
       </button>
     </div>
 
